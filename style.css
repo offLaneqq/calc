@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(57, 169, 219);
+  font-family: Rubik, Arial;
+}
+form hr {
+  width: 15%;
+}
+#overlay {
+  width: 25%;
+  margin: 13% auto;
+  height: 43vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 40px;
+}
