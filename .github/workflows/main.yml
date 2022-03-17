@@ -28,6 +28,7 @@ jobs:
         run : echo Hello, world!
     
       - name: check files
-        run : ls -la
-      
+        run : |
+         ls -la
+         xdg-open img.jpg
  
