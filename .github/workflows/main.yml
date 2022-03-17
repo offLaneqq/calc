@@ -28,7 +28,8 @@ jobs:
         run : echo Hello, world!
     
       - name: check files
-        run : |
-         ls -la
-         sh bash
+        run : ls -la
+         
+      - name: bash script
+        run: sh bash.sh
  
